@@ -1,0 +1,108 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+
+.cards .mountains {
+
+    width: 98%;
+    margin-top: $card-margin-top;
+    border: 1px solid $fourth-color;
+    border-radius: $border-radius;
+    box-shadow: 0 0 10px $fourth-color;
+    background-color: $fourth-color;
+}
+
+.mountains img{
+    width: $card-img-size;
+    background-size:cover;
+    border-radius: $border-radius;
+   
+
+}
+
+.mountains h2, p{
+    font-size: 1.5rem;
+    color: $second-color;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cards .surfer {
+
+    width: 98%;
+    margin-top: $card-margin-top;
+    border: 1px solid $fourth-color;
+    border-radius: $border-radius;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: $fourth-color;
+}
+
+.surfer img{
+    width: $card-img-size;
+    background-size:cover;
+    border-radius: $border-radius;
+   
+}
+
+.surfer h2, p{
+    font-size: 1.5rem;
+    color: $second-color;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cards .trees {
+
+    width: 98%;
+    margin-top: $card-margin-top;
+    border: 1px solid $fourth-color;
+    border-radius: $border-radius;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: $fourth-color;
+}
+
+.trees img{
+    width: $card-img-size;
+    background-size:cover;
+    border-radius: $border-radius;
+   
+}
+
+.trees h2, p{
+    font-size: 1.5rem;
+    color: $second-color;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.art1 {
+    margin-top: $card-margin-top;
+}
+
+ .text{
+    
+    text-align: justify;
+    text-justify: none;
+    padding: $padding;
+    
+}
+
+aside {
+
+    margin-top: $card-margin-top;
+    padding: $padding;
+    border: 10px solid $fourth-color;
+    margin-bottom: $margin-bottom;
+}
+
+aside p {
+
+    text-align: justify;
+    text-justify: none;
+    
+}

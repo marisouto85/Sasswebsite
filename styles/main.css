@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/*MOBILE VERSION*/
+/*Start the header*/
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(29, 102, 126);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+li a:hover {
+  color: rgb(255, 228, 181);
+}
+
+.banner img {
+  width: 35vh;
+}
+
+h1 {
+  font-weight: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: -7rem;
+}
+
+/*Finish the header*/
+/*Start the main*/
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cards .mountains {
+  width: 98%;
+  margin-top: 5rem;
+  border: 1px solid rgb(255, 228, 181);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgb(255, 228, 181);
+  background-color: rgb(255, 228, 181);
+}
+
+.mountains img {
+  width: 30vh;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.mountains h2, p {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cards .surfer {
+  width: 98%;
+  margin-top: 5rem;
+  border: 1px solid rgb(255, 228, 181);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 228, 181);
+}
+
+.surfer img {
+  width: 30vh;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.surfer h2, p {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cards .trees {
+  width: 98%;
+  margin-top: 5rem;
+  border: 1px solid rgb(255, 228, 181);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 228, 181);
+}
+
+.trees img {
+  width: 30vh;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.trees h2, p {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.art1 {
+  margin-top: 5rem;
+}
+
+.text {
+  text-align: justify;
+  text-justify: none;
+  padding: 1rem;
+}
+
+aside {
+  margin-top: 5rem;
+  padding: 1rem;
+  border: 10px solid rgb(255, 228, 181);
+  margin-bottom: 3rem;
+}
+
+aside p {
+  text-align: justify;
+  text-justify: none;
+}
+
+/*Finish the main*/
+/*Footer*/
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: rgb(29, 102, 126);
+}
+
+footer li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem;
+}
+
+/*TABLETS*/
+@media only screen and (min-width: 768px) {
+  .banner img {
+    width: 56vh;
+  }
+  h1 {
+    font-weight: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: -10rem;
+  }
+  .cards .mountains {
+    width: 98%;
+    margin-top: 8rem;
+    border: 1px solid rgb(255, 228, 181);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 228, 181);
+  }
+  .mountains img {
+    width: 56vh;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  .surfer img {
+    width: 56vh;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  .trees img {
+    width: 56vh;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  footer ul {
+    width: 59vh;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: rgb(29, 102, 126);
+  }
+}
+/*DESKTOP*/
+@media only screen and (min-width: 769px) {
+  .banner img {
+    width: 127vh;
+  }
+  h1 {
+    font-weight: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: -19rem;
+  }
+  .cards .mountains {
+    width: 98%;
+    margin-top: 18rem;
+    border: 1px solid rgb(255, 228, 181);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 228, 181);
+  }
+  .mountains img {
+    width: 120vh;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  .surfer img {
+    width: 120vh;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  .trees img {
+    width: 120vh;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  footer ul {
+    width: 140vh;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: rgb(29, 102, 126);
+  }
+}/*# sourceMappingURL=main.css.map */

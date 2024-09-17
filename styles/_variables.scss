@@ -1,0 +1,47 @@
+
+ /*MOBILE VERSION*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+$bdy-color: white;
+$first-color: rgb(29, 102, 126);
+$second-color: rgb(0, 0, 0);
+$third-color: rgb(255, 255, 255);
+$fourth-color: rgb(255,228,181);
+$font-size: 2rem;
+$bold: 2rem;
+$img-size: 35vh;
+$border-radius: 1rem;
+$card-img-size: 30vh;
+$card-margin-top: 5rem;
+$card-margin-left: 7rem;
+$padding: 1rem;
+$margin-bottom: 3rem;
+
+%genstyles{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $second-color;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+ /*TABLETS*/
+
+$tablet-margin-top: -10rem;
+$tablet-img: 56vh;
+$tmountains-mgrtop: 8rem;
+$tfooter-width: 59vh;
+
+/*DESKTOP*/
+
+$dbanner-width: 127vh;
+$desk-margin-top: -19rem;
+$desk-img: 120vh;
+$dmountains-mgrtop: 8rem;
+$dfooter-width: 140vh;

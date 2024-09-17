@@ -1,0 +1,20 @@
+@import "variables";
+ /*MOBILE VERSION*/
+ @import "body";
+
+
+/*Start the header*/
+
+@import "header";
+
+/*Start the main*/
+
+@import "main";
+
+/*Footer*/
+
+@import "footer";
+
+/*TABLETS & DESKTOP*/
+
+@import "mediaqueries";

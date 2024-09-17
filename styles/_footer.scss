@@ -1,0 +1,18 @@
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: $padding;
+    background-color: $first-color;
+}
+
+footer li a {
+    text-decoration: none;
+    color: $third-color;
+    font-size: $font-size;
+    font-weight:bolder;
+    padding: $padding;
+    
+}

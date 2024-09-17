@@ -1,0 +1,31 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: $first-color;
+    font-size: $font-size;
+    font-weight:bolder;
+    
+}
+
+li a:hover {
+    color: $fourth-color;
+}
+
+.banner img {
+    width: $img-size;
+}
+
+h1 {
+    font-weight: $bold;
+    color: $second-color;
+    text-align: center;
+    margin-top: -7rem;
+}

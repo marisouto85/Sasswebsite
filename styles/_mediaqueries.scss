@@ -1,0 +1,121 @@
+@media only screen and (min-width: 768px ){
+
+    .banner img {
+
+        width: $tablet-img;
+    }
+    h1 {
+        font-weight: $bold;
+        color: $second-color;
+        text-align: center;
+        margin-top: $tablet-margin-top;
+    }
+
+    .cards .mountains {
+
+        width: 98%;
+        margin-top: $mountains-mgrtop;
+        border: 1px solid $fourth-color;
+        border-radius: $border-radius;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: $fourth-color;
+    }
+
+    .mountains img{
+        width: $tablet-img;
+        background-size:cover;
+        border-radius: $border-radius;
+    
+    }
+
+    .surfer img{
+        width: $tablet-img;
+        background-size:cover;
+        border-radius: $border-radius;
+       
+    }
+
+    .trees img {
+
+        width: $tablet-img;
+        background-size:cover;
+        border-radius: $border-radius;
+       
+    }
+
+    footer ul {
+        width: $tfooter-width;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: $padding;
+        background-color: $first-color;
+    }
+ 
+
+}
+
+
+
+@media only screen and (min-width: 769px ){
+
+    .banner img {
+
+        width: $dbanner-width;
+    }
+
+    h1 {
+        font-weight: $bold;
+        color: $second-color;
+        text-align: center;
+        margin-top: $desk-margin-top;
+    }
+
+    .cards .mountains {
+
+        width: 98%;
+        margin-top: 18rem;
+        border: 1px solid $fourth-color;
+        border-radius: $border-radius;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: $fourth-color;
+    }
+
+    .mountains img{
+        width: $desk-img;
+        background-size:cover;
+        border-radius: $border-radius;
+    
+    }
+
+    .surfer img{
+        width: $desk-img;
+        background-size:cover;
+        border-radius: $border-radius;
+       
+    }
+
+    .trees img {
+
+        width: $desk-img;
+        background-size:cover;
+        border-radius: $border-radius;
+       
+    }
+
+    footer ul {
+        width: $dfooter-width;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: $padding;
+        background-color: $first-color;
+    }
+ 
+
+}
+
